@@ -26,11 +26,12 @@ def conta_pares(lista):
 
 def maior_valor(lista):
     """Devolve o maior numero da lista. A lista nao esta vazia."""
-   maior = lista[0]
-     for n in lista:
-      if n > maior:
-       maior = n
-    return maior 
+    maior = lista[0]
+    for n in lista:
+        if n > maior:
+            maior = n
+    return maior  
+
 
 def existe(lista, alvo):
     """Devolve True se o alvo esta na lista, False se nao esta."""
@@ -56,5 +57,5 @@ def segundo_maior(lista):
             maior, segundo = n, maior
         elif n > segundo and n != maior:
             segundo = n
-    return segundo"
+    return segundo
     
