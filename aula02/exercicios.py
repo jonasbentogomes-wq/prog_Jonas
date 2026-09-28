@@ -7,7 +7,14 @@ Escreva sua solucao no lugar do 'pass'.
 
 def remove_negativos(lista):
     """Devolve uma lista nova so com os numeros que nao sao negativos."""
-    return [numero for numero in lista if numero >= 0]
+    resultado = []  
+    
+    for numero in lista:  
+        if numero >= 0:   
+            resultado.append(numero) 
+            
+    return resultado  
+
 
 
 def inverte(lista):

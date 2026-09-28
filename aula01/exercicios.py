@@ -27,7 +27,7 @@ def conta_pares(lista):
 def maior_valor(lista):
     """Devolve o maior numero da lista. A lista nao esta vazia."""
    maior = lista[0]
-    for n in lista:
+     for n in lista:
       if n > maior:
        maior = n
     return maior 
