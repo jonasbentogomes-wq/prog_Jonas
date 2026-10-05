@@ -7,7 +7,6 @@ Escreva sua solucao no lugar do 'pass'.
 
 def soma_lista(lista):
     """Devolve a soma de todos os numeros da lista. Lista vazia devolve 0."""
-def soma_lista(lista):
     soma = 0
     for n in lista:
         soma = soma + n 
