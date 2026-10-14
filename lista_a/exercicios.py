@@ -10,37 +10,63 @@ Os exercicios do Bloco 3 devolvem DOIS valores: o resultado e a contagem.
 
 def conta_negativos(lista):
     """Quantos numeros da lista sao menores que zero."""
-    pass
+    MZ = 0
+    for n in lista:
+        if n < 0:
+         MZ = MZ + 1
 
-
+    return MZ 
+        
 def media(lista):
     """Media dos numeros. Lista vazia devolve 0."""
-    pass
-
+    soma = 0
+    media = 0
+    for n in lista:
+        if n == 0:
+           return 0
+        soma = n + 1
+        media = soma / len(lista)
+        
+    return media
 
 def sem_o_maior(lista):
     """Lista NOVA sem o maior valor. Se o maior repete, tira so o primeiro."""
-    pass
+    Pmaior = lista[0]
+    novalista = []
+    for n in lista:
+        if n > Pmaior:  
+         novalista.append(n)
 
+    return novalista
 
 def acumulada(lista):
     """Lista NOVA onde cada posicao e a soma de tudo ate ali.
     acumulada([1, 2, 3]) -> [1, 3, 6]"""
-    pass
-
+    soma = 0
+    listanova = []  
+    acumulo = 0
+    for n in lista:
+        acumulo.append(n) = listanova [1]
+        listanova = soma + n
+        
+    return listanova.append(soma)
 
 def achata(lista_de_listas):
     """(Desafio) Junta as sublistas numa lista so.
     achata([[1, 2], [3]]) -> [1, 2, 3]"""
-    pass
-
-
+    sublistas = []
+    LC = 0
+    for n in lista_de_listas:
+        len(lista_de_listas)
+        len(sublistas)
+        LC = len(lista_de_listas) + len(sublistas)
+    
 # ---------- Bloco 2: busca ----------
 
 def busca_ultima(lista, alvo):
     """ULTIMA posicao do alvo, ou -1."""
-    pass
-
+    for n in lista:
+        
 
 def conta_ocorrencias(lista, alvo):
     """Quantas vezes o alvo aparece."""
