@@ -1,10 +1,11 @@
-# Aula 06 — Selection sort revisitado
+# Aula 06 — Contagem por chave e tabela hash
 
-Os exercícios desta aula ainda não foram publicados.
+Contagem por chave, função hash e colisões estão reunidas nesta pasta. Atualize o
+repositório com `git pull upstream main` e resolva os exercícios em `exercicios.py`.
 
-O enunciado sai na aula. Quando sair, ele aparece aqui junto com o arquivo de
-testes visíveis — para receber, rode:
+Antes de entregar, rode:
 
 ```bash
-git pull upstream main
+cd aula06
+python -m pytest
 ```
